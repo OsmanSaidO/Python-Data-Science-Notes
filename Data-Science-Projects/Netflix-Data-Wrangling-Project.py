@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Veriyi yükleme
-df = pd.read_csv("netflix_titles.csv")
+df = pd.read_csv("../data/netflix_titles.csv")
 
 # Tarih Dönüşümü
 df["date_added"] = pd.to_datetime(df["date_added"].str.strip())
