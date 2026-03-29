@@ -3,8 +3,8 @@ import json
 
 # 1. Veriyi Yükleme ve Hazırlık
 try:
-    with open("milyoner.json", "r", encoding="utf-8") as f:
-        tum_milyoner = json.load(f)
+    with open("../data/Millioner-questions.json", "r", encoding="utf-8") as file:
+    data = json.load(file)
 except FileNotFoundError:
     print("Hata: 'milyoner.json' dosyası bulunamadı!")
     exit()
