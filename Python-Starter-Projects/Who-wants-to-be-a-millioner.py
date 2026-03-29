@@ -4,14 +4,14 @@ import json
 # 1. Veriyi Yükleme ve Hazırlık
 try:
     with open("../data/Millioner-questions.json", "r", encoding="utf-8") as file:
-    data = json.load(file)
+        data = json.load(file)  
 except FileNotFoundError:
     print("Hata: 'milyoner.json' dosyası bulunamadı!")
     exit()
 
-sadece_metin = tum_milyoner["metin"]
-sadece_siklar = tum_milyoner["şıklar"]
-sadece_cevaplar = tum_milyoner["cevap"]
+sadece_metin = data["metin"]     
+sadece_siklar = data["şıklar"]
+sadece_cevaplar = data["cevap"]
 
 # Global Oyun Durumu
 havuz = []
