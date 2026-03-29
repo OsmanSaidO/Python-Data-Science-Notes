@@ -1,8 +1,16 @@
 # 📊 Python & Data Science Learning Journey
 
-This repository tracks my progress in Data Science and Analytics at Gebze Technical University. It includes my notes, exercises, and projects.
+Bu repo, Gebze Teknik Üniversitesi Veri Bilimi ve Analitiği bölümündeki eğitim sürecimde geliştirdiğim projeleri ve aldığım notları içermektedir.
 
-## 🛠️ Key Skills
-* **Languages:** Python
-* **Libraries:** Pandas, NumPy, Matplotlib
-* **Focus:** Data Analysis, Machine Learning
+## 📁 Klasör Yapısı
+- **Data-Science-Projects/**: Veri analizi ve Python tabanlı algoritma projeleri.
+- **data/**: Projelerde kullanılan veri setleri (CSV, JSON).
+
+## 🚀 Öne Çıkan Projeler
+1. **Netflix Data Wrangling**: Pandas ve NumPy kullanarak ham verinin temizlenmesi ve analiz edilmesi.
+2. **PyEnigma-Cipher**: Python ile metin şifreleme algoritması.
+3. **Who-wants-to-be-a-millioner**: JSON tabanlı soru-cevap oyunu.
+
+## 🛠️ Yetkinlikler
+- **Kütüphaneler**: Pandas, NumPy
+- **Yetenekler**: Veri Temizleme, İstatistiksel Analiz, Algoritma Geliştirme
