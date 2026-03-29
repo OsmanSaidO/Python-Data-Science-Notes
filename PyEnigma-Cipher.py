@@ -68,7 +68,6 @@ class EnigmaMotoru:
         print(f"En Çok Geçen Harf: '{en_cok_gecen}'")
         print("---------------------\n")
 
-# --- ANA PROGRAM ---
 enigma = EnigmaMotoru()
 
 try:
